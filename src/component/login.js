@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
-import { loginUser } from "../actions";
+import { loginUser } from "../src/actions";
 import { withStyles } from "@material-ui/styles";
 
 import Avatar from "@material-ui/core/Avatar";

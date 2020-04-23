@@ -1,4 +1,4 @@
-import {myFirebase} from "../firebase";
+import {myFirebase} from "../../firebase";
 
 export const LOGIN_REQUEST = "LOGIN_REQUEST";
 export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
@@ -30,13 +30,7 @@ const loginError = () => {
     };
 };
 
-const loginError = () => {
-    return {
-      type: LOGIN_FAILURE
-    };
-  };
-  
-  const requestLogout = () => {
+const requestLogout = () => {
     return {
       type: LOGOUT_REQUEST
     };
